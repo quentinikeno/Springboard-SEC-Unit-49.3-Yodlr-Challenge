@@ -3,7 +3,7 @@
 const e = React.createElement;
 
 const App = () => {
-	return <div>App</div>;
+	return <Index />;
 };
 
 const domContainer = document.querySelector("#root");
