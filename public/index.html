@@ -2,22 +2,35 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+		/>
 		<title>Yodlr Design Challenge</title>
 	</head>
 	<body>
-		<div id="root"></div>
-		<script
-			src="https://unpkg.com/react@18/umd/react.development.js"
-			crossorigin
-		></script>
-		<script
-			src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-			crossorigin
-		></script>
-		<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-
-		<!-- Load our React component. -->
-		<script src="./components/App.js" type="text/babel"></script>
-		<script src="./components/Index.js" type="text/babel"></script>
+		<nav class="navbar">
+			<div class="container">
+			  <div id="navMenu" class="navbar-menu">
+				<div class="navbar-start">
+					<a href="/index.html" class="navbar-item">Home</a>
+					<a href="/signup.html" class="navbar-item">Registration Page</a>
+					<a href="/admin.html" class="navbar-item">Admin Page</a>
+				</div>
+			</div>
+		  </nav>
+		  
+		  <section class="hero is-link is-fullheight-with-navbar">
+			<div class="hero-body">
+				<div class="container has-text-centered">
+				  <p class="title">
+					Yodlr Design Challenge
+				  </p>
+				  <p class="subtitle">
+					An exciting way to practice front-end take homes.
+				  </p>
+				</div>
+			  </div>
+		  </section>
 	</body>
 </html>
